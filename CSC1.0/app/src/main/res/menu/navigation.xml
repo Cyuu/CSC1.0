@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_alarm"
+        android:icon="@drawable/ic_alarm_black_24dp"
+        android:title="@string/title_alarm"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_monitor"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_monitor"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/title_map"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_mine"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_top_height"
+    android:background="@color/colorPrimary"
+    android:clipChildren="false"
+    android:elevation="@dimen/margin5"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:text=" "
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt18" />
+
+    <ImageView
+        android:id="@+id/left_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="@dimen/margin15"
+        android:paddingRight="@dimen/margin10"
+        android:src="@mipmap/icon_fanhui" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_deep"
+        android:visibility="gone"
+        android:id="@+id/view" />
+
+    <ImageView
+        android:id="@+id/right_img"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:paddingTop="@dimen/margin5"
+        android:paddingBottom="@dimen/margin5"
+        android:paddingLeft="@dimen/margin10"
+        android:paddingRight="@dimen/margin10"
+        android:src="@mipmap/ic_history"
+        android:layout_below="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/moni_top"
+        layout="@layout/common_toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin10"
+        app:cardCornerRadius="@dimen/margin3"
+        app:elevation="@dimen/margin5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin5">
+
+            <EditText
+                android:id="@+id/ed_station"
+                style="@style/edit_mac"
+
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginTop="@dimen/margin5"
+                android:layout_marginRight="@dimen/margin10"
+                android:layout_marginBottom="@dimen/margin5"
+                android:hint="请输入站点名称或者拼音"
+                android:text=""
+                android:textSize="@dimen/txt16" />
+
+            <ImageView
+                android:id="@+id/tv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin5"
+                android:background="@drawable/btn_search_selector"
+                android:padding="@dimen/margin10"
+                android:src="@mipmap/ic_search"
+                android:text="设备站点" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/margin5"
+        android:padding="@dimen/margin8" />
+
+</LinearLayout>

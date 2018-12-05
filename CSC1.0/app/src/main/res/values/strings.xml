@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CSC</string>
+    <string name="app_name_railway">铁路动环监控系统</string>
+    <string name="app_name_comm">通信动环监控系统</string>
+    <string name="title_alarm">告警</string>
+    <string name="title_monitor">监控</string>
+    <string name="title_map">地图</string>
+    <string name="title_mine">我的</string>
+    <string name="title_search">查询</string>
+
+    <string name="title_refresh">刷新</string>
+    <string name="title_history">历史</string>
+
+    <string name="ip_addr">ip&#160;地址:</string>
+    <string name="mao_hao">:</string>
+    <string name="username">用户名:</string>
+    <string name="password">&#160;密&#160;&#160;&#160;码:</string>
+    <string name="hint_ip_addr">服务器IP地址</string>
+    <string name="hint_port">端口号</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_pwd">密码</string><!-- 密码 • ● -->
+    <string name="login">登录</string>
+    <string name="save_pwd">记住密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="company_name">保定市天河电子技术有限公司</string>
+    <string name="monitor">监控</string>
+
+    <string name="search">查询</string>
+
+    <string name="video_layout_loading">Loading...</string>
+    <string name="prompt">提示</string>
+    <string name="exit_app">你确定要退出应用吗?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dismiss">隐藏</string>
+
+    <string name="open_true">已\n开\n通</string>
+    <string name="open_false">未\n开\n通</string>
+
+    <string name="run_ok">正常</string>
+    <string name="run_problem">异常</string>
+
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_test2">Test2Activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
